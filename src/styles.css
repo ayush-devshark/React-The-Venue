@@ -1,17 +1,16 @@
-
 body {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 .app {
-    height:"1500px";
-    background:'cornflowerblue';
+    height: '1500px';
+    background: 'cornflowerblue';
 }
 
 .featured_container {
-    position:'relative'
+    position: 'relative';
 }
 
 .font_righteous {
@@ -38,17 +37,15 @@ body {
 
 .center_wrapper {
     width: 900px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-
 
 /*====================
         HEADER
 ======================*/
 
-
 header {
-    padding:10px 0px;
+    padding: 10px 0px;
     transition: all 300ms ease-in;
 }
 
@@ -68,29 +65,27 @@ header .header_logo_title {
 ======================*/
 
 footer {
-    padding:50px 0px;
+    padding: 50px 0px;
     text-align: center;
-    font-size: 60px;
-    color:#ffffff;
+    font-size: 1.5rem;
+    color: #ffffff;
     background: red;
 }
 
 footer .footer_copyright {
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 /*====================
         CARROUSEL
 ======================*/
 
-
 .carrousel_wrapper {
-    height:700px;
+    height: 700px;
     overflow: hidden;
 }
 
 .carrousel_image {
-    
     background-size: cover !important;
 }
 
@@ -100,8 +95,8 @@ footer .footer_copyright {
     left: 50%;
     width: 400px;
     height: 160px;
-    -webkit-transform: translate(-50%, -50%);  
-    transform: translate(-50%, -50%);   
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     border: 2px solid white;
 }
 
@@ -121,9 +116,9 @@ footer .footer_copyright {
 ======================*/
 
 .countdown_wrapper {
-    position:absolute;
+    position: absolute;
     bottom: 0px;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .countdown_wrapper .countdown_top {
@@ -142,12 +137,12 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_time {
     font-size: 70px;
-    border-right: 1px solid #F44336;
+    border-right: 1px solid #f44336;
     margin-right: 14px;
     padding-right: 49px;
 }
-.countdown_wrapper .countdown_item:last-child .countdown_time{
-    border:none;
+.countdown_wrapper .countdown_item:last-child .countdown_time {
+    border: none;
 }
 
 .countdown_wrapper .countdown_tag {
@@ -166,11 +161,11 @@ footer .footer_copyright {
 }
 
 .vn_item {
-    width:50%;
-    color:#ffffff;
+    width: 50%;
+    color: #ffffff;
     text-align: center;
 }
-                      
+
 .vn_item .vn_outer {
     width: 300px;
     border: 2px solid #828282;
@@ -178,7 +173,7 @@ footer .footer_copyright {
     padding: 5px;
 }
 
-.vn_item .vn_inner { 
+.vn_item .vn_inner {
     border: 2px solid #828282;
     position: relative;
     padding: 0px 20px;
@@ -227,11 +222,10 @@ footer .footer_copyright {
         HIGHLIGHTS
 ======================*/
 
-
 .highlight_wrapper h2 {
     text-align: center;
     text-transform: uppercase;
-    color:#2c2c2c;
+    color: #2c2c2c;
     font-size: 52px;
 }
 
@@ -268,7 +262,6 @@ footer .footer_copyright {
     display: block;
 }
 
-
 .discount_wrapper .discount_description h3 {
     font-size: 34px;
     font-weight: 100;
@@ -276,7 +269,7 @@ footer .footer_copyright {
     color: #2c2c2c;
 }
 
-.discount_wrapper .discount_description p { 
+.discount_wrapper .discount_description p {
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
@@ -290,7 +283,6 @@ footer .footer_copyright {
     padding: 70px 0px;
 }
 
-
 .pricing_section h2 {
     color: #ffffff;
     text-transform: uppercase;
@@ -303,7 +295,7 @@ footer .footer_copyright {
     display: flex;
     flex-wrap: wrap;
 }
-.pricing_wrapper .pricing_item{
+.pricing_wrapper .pricing_item {
     flex-grow: 1;
     width: 33%;
     padding: 20px;
@@ -311,7 +303,7 @@ footer .footer_copyright {
 }
 
 .pricing_wrapper .pricing_inner_wrapper {
-    border:2px solid #ffa800;
+    border: 2px solid #ffa800;
     padding: 50px 20px;
 }
 
@@ -340,16 +332,15 @@ footer .footer_copyright {
 }
 
 .pricing_inner_wrapper .pricing_buttons {
-     text-align: center;
+    text-align: center;
 }
-
 
 /*====================
         LOCATION    
 ======================*/
 
 .location_wrapper {
-    position:relative;
+    position: relative;
 }
 
 .location_tag {
@@ -357,7 +348,7 @@ footer .footer_copyright {
     bottom: 0px;
     width: 100%;
 }
-.location_tag div{
+.location_tag div {
     background: #2c2c2c;
     color: #ffffff;
     text-transform: uppercase;
