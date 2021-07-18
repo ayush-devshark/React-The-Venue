@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react';
 import React, { useEffect, useState, useCallback } from 'react';
 import { Slide } from 'react-awesome-reveal';
 
